@@ -14,7 +14,7 @@
 日程安排，对应[schedule](http://47.242.94.77:9090/schedule.html)页面。<br>
 数据示例如下：
 > calendar.josn 文件 <br>
->```
+```
 [
   {
     "title": "Tutorials",
@@ -27,6 +27,7 @@
     "type": "Tutorials",
     "view": "week"
   },...]
+  ```
 ### 数据类型说明
 
 <table border="1">
