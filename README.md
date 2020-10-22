@@ -105,7 +105,7 @@
 不确定用不用得上
 数据示例如下：
 > plenary_sessions.yml<br>
->
+
 ```
 - UID: "opening_remarks"
   title: "Opening Remarks"
@@ -166,10 +166,13 @@
 
 # <span id = "papers">papers</span>
 papers分为五种类型，分别为[main_papers, demo_papers, srw_papers, cl_papers, tacl_papers]，每个类型对应一个csv文件，此处以demo_paper为例说明，其他类型具体参照文件。
-> demo_papers.csv<br>
-`UID,title,authors,abstract,keywords,track,paper_type,pdf_url,demo_url
+> demo_papers.csv
+
+```
+UID,title,authors,abstract,keywords,track,paper_type,pdf_url,demo_url
 demo.94,标题,作者1|作者2, 摘要,GAIA|Fine-grained System|open system|indexing entities,Demo,Demo,
-https://www.aclweb.org/anthology/2020.acl-demos.11.pdf,https://blender.cs.illinois.edu/software/gaia-ie`
+https://www.aclweb.org/anthology/2020.acl-demos.11.pdf,https://blender.cs.illinois.edu/software/gaia-ie
+```
 
  <table>
     <th>列名</th>
@@ -226,8 +229,10 @@ https://www.aclweb.org/anthology/2020.acl-demos.11.pdf,https://blender.cs.illino
 # <span id = "paper_zoom_links">paper_zoom_links</span>
 zoom会议地址，同样分为五种
 > demo_paper_zoom_links.csv<br>
-`UID,session_name,starttime,endtime,timezone,zoom_join_link
-demo.24,D3A-1,2020-07-06T12:00:00Z,2020-07-06T12:45:00Z,UTC,https://zoom.us/j/93300035806`
+```
+UID,session_name,starttime,endtime,timezone,zoom_join_link
+demo.24,D3A-1,2020-07-06T12:00:00Z,2020-07-06T12:45:00Z,UTC,https://zoom.us/j/93300035806
+```
 
 <table>
     <th>列名</th>
@@ -271,8 +276,10 @@ demo.24,D3A-1,2020-07-06T12:00:00Z,2020-07-06T12:45:00Z,UTC,https://zoom.us/j/93
 # <span id = "paper_slideslive_ids">paper_slideslive_ids</span>
 同样是分为5种。因为我们不用slideslive，所以改为youtube和B站的视频ID
 > paper_slideslive_ids.csv<br>
-`UID,youtube_id, bilibili_id
-main.1,Sx6dAx7dnXg, BV1kt4y1v7T6`
+```
+UID,youtube_id, bilibili_id
+main.1,Sx6dAx7dnXg, BV1kt4y1v7T6
+```
 <table>
     <th>列名</th>
     <th>说明</th>
@@ -493,9 +500,12 @@ main.1,Sx6dAx7dnXg, BV1kt4y1v7T6`
 # <span id = " workshops_papers">workshops_papers</span>
 具体的每个workshop中分享的[paper列表](http://47.242.94.77:9090/workshop_W1.html)<br>
 有多个文件，w1-wn。
-> w1_papers.csv<br>
->`UID,title,speakers,presentation_id
-1,Corpus based Amharic sentiment lexicon generation,"Girma Neshir Alemneh, Andreas Rauber and Solomon Atnafu",38929537`
+> w1_papers.csv
+
+```
+UID,title,speakers,presentation_id
+1,Corpus based Amharic sentiment lexicon generation,"Girma Neshir Alemneh, Andreas Rauber and Solomon Atnafu",38929537
+```
 
 <table>
     <th>列名</th>
@@ -529,7 +539,7 @@ main.1,Sx6dAx7dnXg, BV1kt4y1v7T6`
 workshop 的日程信息<br>
 以<b>W<i>n</i></b>为大列表
 > workshop_schedules.json<br>
-> `{
+ ```{
   "W1":
   [
       {
@@ -543,7 +553,8 @@ workshop 的日程信息<br>
         "subsession": "Session 1"
       },...],
       "W2":[...],
-      }`
+      }
+ ```
       
  <table>
     <th>列名</th>
