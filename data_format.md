@@ -32,7 +32,7 @@
          <tr>
         <td>paper_id</td>
         <td>paper id，为对应html前缀数字，如非paper默认为 "none"</td>
-        <td>如，Qian Wang|Jiajun Zhang|Lemao Liu|Guoping Huang|Chengqing Zong</td>
+        <td>如，39</td>
     </tr>
         <tr>
         <td>session</td>
