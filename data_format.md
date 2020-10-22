@@ -21,17 +21,17 @@
     </tr>
         <tr>
         <td>authors</td>
-        <td>作者，非paper默认为 "none"</td>
+        <td>作者，如非paper默认为 "none"</td>
         <td>如，Qian Wang|Jiajun Zhang|Lemao Liu|Guoping Huang|Chengqing Zong</td>
     </tr>
         <tr>
         <td>org</td>
-        <td>作者所在机构，非paper默认为 "none"</td>
+        <td>作者所在机构，如非paper默认为 "none"</td>
         <td>Institute of Automation|Chinese Academy of Sciences|Institute of Automation Chinese Academy of Sciences|Tencent AI Lab</td>
     </tr>
         <tr>
         <td>session</td>
-        <td>session名</td>
+        <td>session名，如非paper默认为 "none"</td>
         <td>如，Session 1A</td>
     </tr>
         <tr>
